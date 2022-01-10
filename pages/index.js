@@ -1,3 +1,6 @@
+/** @jsx jsx */
+/** @jsxRuntime classic */
+import { jsx } from 'theme-ui'
 import { useProjects } from '../hooks/queries'
 import { useRouter } from 'next/router'
 
@@ -11,11 +14,9 @@ export default function Home() {
   return (
     <div>
       <main>
-        <h1>
+        <h1 sx={{ fontSize: '2rem' }}>
           Welcome to our coding challenge!
         </h1>
-        {projects.map(project =>
-          <a href={`/project/${project.id}`}>Lalala {project.name}</a>)}
       </main>
     </div>
   )

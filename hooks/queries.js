@@ -10,12 +10,12 @@ export const useProjects = () => {
         endpoint,
         gql`
           query {
-            projects(first: 20) {
+            projects(first: 20, orderBy:createdAt, orderDirection:desc) {
               id
               ipfsHash
               name
               description
-              image
+              avatar
             }
           }
         `
@@ -29,7 +29,6 @@ export const useProject = (projectId) => {
   return useQuery(
     ["project", projectId],
     async () => {
-      console.log("projectId: ", projectId)
       const { project } = await request(
         endpoint,
         gql`

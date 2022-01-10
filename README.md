@@ -6,14 +6,14 @@ In this exercise you will create a page that lists all projects (as cards), and 
 
 Designs can be found [here](https://www.figma.com/file/x6f8HRP0TH0uWIWYqHfEup/Product-coding-challenge).
 
-1. React Query is already setup and we use it to fetch data for both pages.
-2. On the Projects page - show the list of projects as cards. Make sure to implement the hover state, and to make the layout responsive.  
+1. On the Projects page - show the list of projects as cards. Make sure to implement the hover state, and to make the layout responsive. 
+2. React Query is already setup and we use it to fetch data for both pages. For the cards, make sure to use project names. For the cards images, use the avatar property (which is a `Qm..` hash) and prepend this to it https://ipfs.io/ipfs/. For example, this is an image URL: https://ipfs.io/ipfs/QmfWoVg7xFrf1nx5P5ANJJfVzMABbrUJhg3FMkgnVKf9jH  
 3. On the individual Project page - show more details about the project itself. The data should be already available for that page. Remember to have the hover state for the button. Button click shouldn't do anything.
 
 # Notes
 
 - Make sure to implement the UI/UX according to the Designs provided. We highly value attention to detail.
-- For styling we use Theme UI. There is an example in the app of how to add styles. 
+- For styling we use Theme UI. You can read more about it here: https://theme-ui.com/getting-started/. There is an example in the app of how to add styles. 
 
 # Setup and Development
 
