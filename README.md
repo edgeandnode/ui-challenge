@@ -1,4 +1,4 @@
-# The Graph Epochs
+# The Graph UI Challenge
 
 This is a NextJS React app interview challenge. Please fork this repo, and push your code to a branch in your forked repo (following the instructions below).
 
